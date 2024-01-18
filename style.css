@@ -1,0 +1,328 @@
+@import url("https://fonts.cdnfonts.com/css/godzilla");
+
+* {
+  font-size: 20px;
+  font-family: 'Godzilla', sans-serif;
+}
+
+.Godzilla {
+  border: 4px solid rgb(252, 250, 250);
+  background: rgb(15, 1, 99);
+  width: 20%;
+  display: inline-table;
+  transition: all 0.8s;
+  border-radius: 10px;
+}
+
+.Godzilla:hover {
+  width: 21%;
+  background-color: rgb(4, 180, 250);
+  box-shadow: 0 0 5px cyan, 0 0 50px rgb(2, 154, 165), 0 0 100px rgb(0, 139, 116),
+    0 0 200px rgb(2, 133, 173), 0 0 8000px rgb(1, 197, 197);
+  transform: matrix3d(50px);
+  margin: 20px;
+  border-radius: 20px;
+  border: 20px solid rgb(10, 10, 10);
+}
+
+.Godzilla img {
+  margin: 5%;
+  width: 300px;
+  border: 4px solid rgb(247, 246, 250);
+  object-fit: cover;
+  border-radius: 40px;
+}
+
+.Kong {
+  border: 4px solid rgb(236, 233, 233);
+  background: rgb(114, 26, 4);
+  width: 20%;
+  display: inline-table;
+  transition: all 0.8s;
+  border-radius: 10px;
+}
+
+.Kong:hover {
+  width: 21%;
+  background-color: rgb(212, 59, 3);
+  box-shadow: 0 0 5px cyan, 0 0 50px darkorange, 0 0 100px darkorange,
+    0 0 200px darkorange, 0 0 300px darkorange;
+  transform: matrix3d(50px);
+  margin: 20px;
+  border-radius: 20px;
+  border: 20px solid rgb(10, 10, 10);
+}
+
+.Kong img {
+  margin: 5%;
+  width: 300px;
+  border: 4px solid rgb(248, 243, 243);
+  object-fit: cover;
+  border-radius: 40px;
+}
+
+.Biollante {
+  margin-top: px;
+  border: 4px solid rgb(251, 253, 251);
+  background: rgb(2, 68, 11);
+  width: 20%;
+  display: inline-table;
+  transition: all 0.8s;
+  border-radius: 10px;
+}
+
+.Biollante:hover {
+  width: 21%;
+  background-color: rgb(6, 240, 6);
+  box-shadow: 0 0 5px cyan, 0 0 50px darkgreen, 0 0 100px darkgreen,
+    0 0 200px darkgreen, 0 0 300px darkgreen;
+  transform: matrix3d(50px);
+  margin: 20px;
+  border-radius: 20px;
+  border: 20px solid rgb(8, 8, 8);
+}
+
+.Biollante img {
+  margin: 5%;
+  width: 300px;
+  border: 4px solid rgb(240, 235, 235);
+  object-fit: cover;
+  border-radius: 40px;
+}
+
+.Mechagodzilla {
+  margin-top: px;
+  border: 4px solid rgb(255, 255, 255);
+  background: rgb(67, 68, 67);
+  width: 20%;
+  display: inline-table;
+  transition: all 0.8s;
+  border-radius: 10px;
+}
+
+.Mechagodzilla:hover {
+  width: 21%;
+  background-color: rgb(228, 223, 223);
+  box-shadow: 0 0 5px cyan, 0 0 50px whitesmoke, 0 0 100px whitesmoke,
+    0 0 200px whitesmoke, 0 0 300px whitesmoke;
+  transform: matrix3d(50px);
+  margin: 20px;
+  border-radius: 20px;
+  border: 20px solid rgb(10, 10, 10);
+}
+
+.Mechagodzilla img {
+  margin: 5%;
+  width: 300px;
+  border: 4px solid rgba(245, 245, 247, 0.966);
+  object-fit: cover;
+  border-radius: 40px;
+}
+
+.Spacegodzilla {
+  margin-top: px;
+  border: 4px solid rgb(255, 255, 255);
+  background: rgb(21, 2, 107);
+  width: 20%;
+  display: inline-table;
+  transition: all 0.8s;
+  border-radius: 10px;
+}
+
+.Spacegodzilla:hover {
+  width: 21%;
+  background-color: rgb(70, 6, 248);
+  box-shadow: 0 0 5px cyan, 0 0 50px rgb(46, 47, 124), 0 0 100px rgb(47, 53, 133),
+    0 0 200px rgb(39, 49, 133), 0 0 300px rgb(39, 38, 117);
+  transform: matrix3d(50px);
+  margin: 20px;
+  border-radius: 20px;
+  border: 20px solid rgb(10, 10, 10);
+}
+
+.Spacegodzilla img {
+  margin: 5%;
+  width: 300px;
+  border: 4px solid rgb(252, 249, 249);
+  object-fit: cover;
+  border-radius: 40px;
+}
+
+.Destoroyah {
+  margin-top: px;
+  border: 4px solid rgb(255, 255, 255);
+  background: rgb(129, 1, 1);
+  width: 20%;
+  display: inline-table;
+  transition: all 0.8s;
+  border-radius: 10px;
+}
+
+.Destoroyah:hover {
+  width: 21%;
+  background-color: red;
+  box-shadow: 0 0 5px cyan, 0 0 50px rgb(148, 2, 2), 0 0 100px rgb(114, 7, 16),
+    0 0 200px rgb(121, 22, 22), 0 0 300px rgb(121, 25, 25);
+  transform: matrix3d(50px);
+  margin: 20px;
+  border-radius: 20px;
+  border: 20px solid rgb(10, 10, 10);
+}
+
+.Destoroyah img {
+  margin: 5%;
+  width: 300px;
+  border: 4px solid rgb(252, 249, 249);
+  object-fit: cover;
+  border-radius: 40px;
+}
+
+.Monsterverse {
+  background-color: rgb(102, 26, 102);
+  border: 4px solid black;
+  box-shadow: 0 0 5px cyan, 0 0 50px darkblue, 0 0 100px darkblue,
+    0 0 200px darkblue, 0 0 8000px darkblue;
+  transform: matrix3d(50px);
+  margin: 20px;
+  width: 350px;
+  height: 25px;
+}
+
+body {
+  background-color: black;
+  background-image: linear-gradient(#444cf7 1px, transparent 1px),
+    linear-gradient(to right, #444cf7 1px, black 1px);
+  background-size: 20px 20px;
+}
+
+@media (min-width: 475px) {
+  .cont {
+    display: inline-table;
+  }
+
+  .font {
+    display: inline-table;
+  }
+
+  .lont {
+    display: inline-table;
+  }
+
+  .ront {
+    display: inline-table;
+  }
+
+  .sont {
+    display: inline-table;
+  }
+}
+
+@media (min-width: 640px) {
+  .cont {
+    display: inline-table;
+  }
+
+  .font {
+    display: inline-table;
+  }
+
+  .lont {
+    display: inline-table;
+  }
+
+  .ront {
+    display: inline-table;
+  }
+
+  .sont {
+    display: inline-table;
+  }
+}
+
+@media (min-width: 760px) {
+  .cont {
+    display: inline-table;
+  }
+
+  .font {
+    display: inline-table;
+  }
+
+  .lont {
+    display: inline-table;
+  }
+
+  .ront {
+    display: inline-table;
+  }
+
+  .sont {
+    display: inline-table;
+  }
+}
+
+@media (min-width: 1024px) {
+  .cont {
+    display: inline-table;
+  }
+
+  .font {
+    display: inline-table;
+  }
+
+  .lont {
+    display: inline-table;
+  }
+
+  .ront {
+    display: inline-table;
+  }
+
+  .sont {
+    display: inline-table;
+  }
+}
+
+@media (min-width: 1200px) {
+  .cont {
+    display: inline-table;
+  }
+
+  .font {
+    display: inline-table;
+  }
+
+  .lont {
+    display: inline-table;
+  }
+
+  .ront {
+    display: inline-table;
+  }
+
+  .sont {
+    display: inline-table;
+  }
+}
+
+@media (min-width: 1536px) {
+  .cont {
+    display: inline-table;
+  }
+
+  .font {
+    display: inline-table;
+  }
+
+  .lont {
+    display: inline-table;
+  }
+
+  .ront {
+    display: inline-table;
+  }
+
+  .sont {
+    display: inline-table;
+  }
+}
