@@ -6,207 +6,143 @@
 }
 
 .Godzilla {
-  border: 4px solid rgb(8, 8, 8);
-  background: rgb(232, 231, 236);
+  margin: 40px auto;
   width: 20%;
-  display: inline-block;
-  transition: all 0.8s;
-  border-radius: 5px;
-  animation: animate linear infinite 3s;
-}
+  outline: 3px solid;
+  height: 30%;
+  resize: both;
+  overflow: hidden;
+  background: rgb(57, 57, 122);
+  border: 5px solid rgb(2, 2, 2);
+  border-radius: 10px;
+  transition: all 1s;
 
-
-@keyframes animate {
-  0% {
-     background-color: red;
-  }
-  35% {
-    background-color: blue;
-  }
-  60% {
-    background-color: red;
-  }
-  85% {
-    background-color: blue;
-  }
-  100% {
-    background-color: red;
-  }
+  display: table;
+  flex-wrap: wrap;
+  align-content: flex-start;
+  box-shadow: 0 0 5px cyan,
+  0 0 25px cyan;
+  animation: glowing 10s linear infinite;
 }
 
 .Godzilla:hover {
-  width: 21%;
-  background-color: rgb(7, 183, 247);
-  box-shadow: 0 0 5px rgb(243, 245, 243), 0 0 50px rgb(252, 248, 248), 0 0 100px rgb(254, 255, 251),
-    0 0 200px rgb(246, 246, 248), 0 0 8000px rgb(253, 253, 252);
-  transform: matrix3d(50px);
-  margin: 20px;
-  border-radius: 120px;
-  border: 5px solid rgb(3, 3, 3);
-  overflow: hidden;
+  box-shadow: 0 0 5px cyan,
+  0 0 25px cyan, 0 0 50px cyan,
+  0 0 100px cyan, 0 0 200px cyan;
+  background: white;
+  width: 22%;
+  height: 32%;
+  transition: all 1s;
 }
 
 .Godzilla img {
-  margin: 5%;
-  width: 300px;
-  border: 5px solid rgb(2, 2, 2);
-  object-fit: cover;
-  border-radius: 100px;
+  border: 5px solid black;
+  width: 250px;
+  height: 150px;
+  border-radius: 3px;
 }
 
-.Kong {
-  border: 4px solid rgb(236, 233, 233);
-  background: rgb(114, 26, 4);
-  width: 20%;
-  display: inline-table;
-  transition: all 0.8s;
-  border-radius: 10px;
+@keyframes glowing {
+  0% {
+    background-position: 0 0;
+  }
+
+  50% {
+    background-position: 400% 0;
+  }
+
+  100% {
+    background-position: 0 0;
+  }
 }
 
-.Kong:hover {
-  width: 21%;
-  background-color: rgb(212, 59, 3);
-  box-shadow: 0 0 5px cyan, 0 0 50px darkorange, 0 0 100px darkorange,
-    0 0 200px darkorange, 0 0 300px darkorange;
-  transform: matrix3d(50px);
-  margin: 20px;
-  border-radius: 20px;
-  border: 20px solid rgb(10, 10, 10);
-}
-
-.Kong img {
-  margin: 5%;
-  width: 300px;
-  border: 4px solid rgb(248, 243, 243);
-  object-fit: cover;
-  border-radius: 40px;
-}
-
-.Biollante {
-  margin-top: px;
-  border: 4px solid rgb(251, 253, 251);
-  background: rgb(2, 68, 11);
-  width: 20%;
-  display: inline-table;
-  transition: all 0.8s;
-  border-radius: 10px;
-}
-
-.Biollante:hover {
-  width: 21%;
-  background-color: rgb(6, 240, 6);
-  box-shadow: 0 0 5px cyan, 0 0 50px darkgreen, 0 0 100px darkgreen,
-    0 0 200px darkgreen, 0 0 300px darkgreen;
-  transform: matrix3d(50px);
-  margin: 20px;
-  border-radius: 20px;
-  border: 20px solid rgb(8, 8, 8);
-}
-
-.Biollante img {
-  margin: 5%;
-  width: 300px;
-  border: 4px solid rgb(240, 235, 235);
-  object-fit: cover;
-  border-radius: 40px;
-}
-
-.Mechagodzilla {
-  margin-top: px;
-  border: 4px solid rgb(255, 255, 255);
-  background: rgb(67, 68, 67);
-  width: 20%;
-  display: inline-table;
-  transition: all 0.8s;
-  border-radius: 10px;
-}
-
-.Mechagodzilla:hover {
-  width: 21%;
-  background-color: rgb(228, 223, 223);
-  box-shadow: 0 0 5px cyan, 0 0 50px whitesmoke, 0 0 100px whitesmoke,
-    0 0 200px whitesmoke, 0 0 300px whitesmoke;
-  transform: matrix3d(50px);
-  margin: 20px;
-  border-radius: 20px;
-  border: 20px solid rgb(10, 10, 10);
-}
-
-.Mechagodzilla img {
-  margin: 5%;
-  width: 300px;
-  border: 4px solid rgba(245, 245, 247, 0.966);
-  object-fit: cover;
-  border-radius: 40px;
-}
-
-.Spacegodzilla {
-  margin-top: px;
-  border: 4px solid rgb(255, 255, 255);
-  background: rgb(21, 2, 107);
-  width: 20%;
-  display: inline-table;
-  transition: all 0.8s;
-  border-radius: 10px;
-}
-
-.Spacegodzilla:hover {
-  width: 21%;
-  background-color: rgb(70, 6, 248);
-  box-shadow: 0 0 5px cyan, 0 0 50px rgb(46, 47, 124), 0 0 100px rgb(47, 53, 133),
-    0 0 200px rgb(39, 49, 133), 0 0 300px rgb(39, 38, 117);
-  transform: matrix3d(50px);
-  margin: 20px;
-  border-radius: 20px;
-  border: 20px solid rgb(10, 10, 10);
-}
-
-.Spacegodzilla img {
-  margin: 5%;
-  width: 300px;
-  border: 4px solid rgb(252, 249, 249);
-  object-fit: cover;
-  border-radius: 40px;
-}
-
-.Destoroyah {
-  margin-top: px;
-  border: 4px solid rgb(255, 255, 255);
-  background: rgb(129, 1, 1);
-  width: 20%;
-  display: inline-table;
-  transition: all 0.8s;
-  border-radius: 10px;
-}
-
-.Destoroyah:hover {
-  width: 21%;
-  background-color: red;
-  box-shadow: 0 0 5px cyan, 0 0 50px rgb(148, 2, 2), 0 0 100px rgb(114, 7, 16),
-    0 0 200px rgb(121, 22, 22), 0 0 300px rgb(121, 25, 25);
-  transform: matrix3d(50px);
-  margin: 20px;
-  border-radius: 20px;
-  border: 20px solid rgb(10, 10, 10);
-}
-
-.Destoroyah img {
-  margin: 5%;
-  width: 300px;
-  border: 4px solid rgb(252, 249, 249);
-  object-fit: cover;
-  border-radius: 40px;
+#flex-item-1 {
+  flex-basis: 100px;
+  flex-grow: 1;
+  display: table;
 }
 
 .Monsterverse {
-  background-color: rgb(102, 26, 102);
+  background-color: rgb(138, 4, 138);
   border: 4px solid black;
   box-shadow: 0 0 5px cyan, 0 0 50px darkblue, 0 0 100px darkblue,
-    0 0 200px darkblue, 0 0 8000px darkblue;
+    0 0 200px rgb(32, 32, 112), 0 0 8000px darkblue;
   transform: matrix3d(50px);
-  margin: 20px;
-  width: 350px;
-  height: 25px;
+  margin: 10px;
+  width: 80%;
+  height: 100%;
+}
+
+.facebook:link {
+  color: blue;
+  opacity: 10;
+  display: inline;
+}
+
+.facebook:visited {
+  color: blue;
+  opacity: 10;
+  display: inline;
+}
+
+.Facebook-1 {
+  display: inline;
+  color: white;
+  font-size: 15px;
+}
+
+.github:link {
+  color: rgb(124, 120, 120);
+  opacity: 10;
+  display: inline;
+}
+
+.github:visited {
+  color: rgb(112, 111, 111);
+  opacity: 10;
+  display: inline;
+}
+
+.Github-1 {
+  display: inline;
+  color: white;
+  font-size: 15px;
+}
+
+.youtube:link {
+  color: red;
+  opacity: 10;
+  display: inline;
+}
+
+.youtube:visited {
+  color: red;
+  opacity: 10;
+  display: inline;
+}
+
+.Youtube-1 {
+  display: inline;
+  color: white;
+  font-size: 15px;
+}
+
+.instagram:link {
+  color: rgb(243, 33, 103);
+  opacity: 10;
+  display: inline;
+}
+
+.instagram:visited {
+  color: rgb(red, green, blue);
+  opacity: 10;
+  display: inline;
+}
+
+.Instagram-1 {
+  display: inline;
+  color: white;
+  font-size: 15px;
 }
 
 body {
@@ -217,133 +153,133 @@ body {
 }
 
 @media (min-width: 475px) {
-  .cont {
-    display: inline-table;
+  .Godzilla {
+    display: inline-block;
   }
 
-  .font {
-    display: inline-table;
+  .Godzilla {
+    display: inline-block;
   }
 
-  .lont {
-    display: inline-table;
+  .Godzilla {
+    display: inline-block;
   }
 
-  .ront {
-    display: inline-table;
+  .Godzilla {
+    display: inline-block;
   }
 
-  .sont {
-    display: inline-table;
+  .Godzilla {
+    display: inline-block;
   }
 }
 
 @media (min-width: 640px) {
-  .cont {
-    display: inline-table;
+  .Godzilla {
+    display: inline-block;
   }
 
-  .font {
-    display: inline-table;
+  .Godzilla {
+    display: inline-block;
   }
 
-  .lont {
-    display: inline-table;
+  .Godzilla {
+    display: inline-block;
   }
 
-  .ront {
-    display: inline-table;
+  .Godzilla {
+    display: inline-block;
   }
 
-  .sont {
-    display: inline-table;
+  .Godzilla {
+    display: inline-block;
   }
 }
 
 @media (min-width: 760px) {
-  .cont {
-    display: inline-table;
+  .Godzilla {
+    display: inline-block;
   }
 
-  .font {
-    display: inline-table;
+  .Godzilla {
+    display: inline-block;
   }
 
-  .lont {
-    display: inline-table;
+  .Godzilla {
+    display: inline-block;
   }
 
-  .ront {
-    display: inline-table;
+  .Godzilla {
+    display: inline-block;
   }
 
-  .sont {
-    display: inline-table;
+  .Godzilla {
+    display: inline-block;
   }
 }
 
 @media (min-width: 1024px) {
-  .cont {
-    display: inline-table;
+  .Godzilla {
+    display: inline-block;
   }
 
-  .font {
-    display: inline-table;
+  .Godzilla {
+    display: inline-block;
   }
 
-  .lont {
-    display: inline-table;
+  .Godzilla {
+    display: inline-block;
   }
 
-  .ront {
-    display: inline-table;
+  .Godzilla {
+    display: inline-block;
   }
 
-  .sont {
-    display: inline-table;
+  .Godzilla {
+    display: inline-block;
   }
 }
 
 @media (min-width: 1200px) {
-  .cont {
-    display: inline-table;
+  .Godzilla {
+    display: inline-block;
   }
 
-  .font {
-    display: inline-table;
+  .Godzilla {
+    display: inline-block;
   }
 
-  .lont {
-    display: inline-table;
+  .Godzilla {
+    display: inline-block;
   }
 
-  .ront {
-    display: inline-table;
+  .Godzilla {
+    display: inline-block;
   }
 
-  .sont {
-    display: inline-table;
+  .Godzilla {
+    display: inline-block;
   }
 }
 
 @media (min-width: 1536px) {
-  .cont {
-    display: inline-table;
+  .Godzilla {
+    display: inline-block;
   }
 
-  .font {
-    display: inline-table;
+  .Godzilla {
+    display: inline-block;
   }
 
-  .lont {
-    display: inline-table;
+  .Godzilla {
+    display: inline-block;
   }
 
-  .ront {
-    display: inline-table;
+  .Godzilla {
+    display: inline-block;
   }
 
-  .sont {
-    display: inline-table;
+  .Godzilla {
+    display: inline-block;
   }
 }
