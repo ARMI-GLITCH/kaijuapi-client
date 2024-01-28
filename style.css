@@ -1,4 +1,4 @@
-@import url("https://fonts.cdnfonts.com/css/godzilla");
+@import url('https://fonts.googleapis.com/css2?family=Odibee+Sans&family=Saira:ital,wght@1,200&display=swap');
 
 * {
   font-size: 15px;
@@ -79,155 +79,138 @@
 }
 
 .facebook:link {
-  color: blue;
-  opacity: 10;
-  display: inline;
+  background-color: rgba(0, 255, 255, 0.2);
+  border: 2px solid rgb(0, 255, 255);
+  color: white;
+  border-radius: 5px;
+  box-shadow: 0px 0px 30px rgb(0, 255, 255);
   padding: 10px;
-  border-radius: 10px;
-  background: white;
-  border: 5px solid black;
 }
 
 .facebook:visited {
-  color: blue;
-  opacity: 10;
-  display: inline;
-  background: white;
+  background-color: rgba(0, 255, 255, 0.2);
+  border: 2px solid rgb(0, 255, 255);
+  color: white;
+  border-radius: 5px;
+  box-shadow: 0px 0px 30px rgb(0, 255, 255);
   padding: 10px;
-  border: 5px solid black;
-  border-radius: 10px;
 }
 
 .Facebook-1 {
-  display: inline;
-  color: blue;
-  font-size: 15px;
-  background: white;
+  background-color: rgba(0, 255, 255, 0.2);
+  border: 2px solid rgb(0, 255, 255);
+  color: white;
+  border-radius: 5px;
+  box-shadow: 0px 0px 30px rgb(0, 255, 255);
   padding: 10px;
-  border: 5px solid black;
-  border-radius: 10px;
 }
 
 .github:link {
-  color: rgb(124, 120, 120);
-  opacity: 10;
-  display: inline;
-  background: black;
+  background-color: rgba(0, 255, 255, 0.2);
+  border: 2px solid rgb(0, 255, 255);
+  color: white;
+  border-radius: 5px;
+  box-shadow: 0px 0px 30px rgb(0, 255, 255);
   padding: 10px;
-  border: 5px solid rgb(248, 244, 244);
-  border-radius: 10px;
 }
 
 .github:visited {
-  color: rgb(112, 111, 111);
-  opacity: 10;
-  display: inline;
-  background: black;
+  background-color: rgba(0, 255, 255, 0.2);
+  border: 2px solid rgb(0, 255, 255);
+  color: white;
+  border-radius: 5px;
+  box-shadow: 0px 0px 30px rgb(0, 255, 255);
   padding: 10px;
-  border: 5px solid rgb(253, 250, 250);
-  border-radius: 10px;
 }
 
 .Github-1 {
-  display: inline;
+  background-color: rgba(0, 255, 255, 0.2);
+  border: 2px solid rgb(0, 255, 255);
   color: white;
-  font-size: 15px;
-  background: black;
+  border-radius: 5px;
+  box-shadow: 0px 0px 30px rgb(0, 255, 255);
   padding: 10px;
-  border: 5px solid white;
-  border-radius: 10px;
 }
 
 .youtube:link {
-  color: red;
-  opacity: 10;
-  display: inline;
-  background: black;
+  background-color: rgba(0, 255, 255, 0.2);
+  border: 2px solid rgb(0, 255, 255);
+  color: white;
+  border-radius: 5px;
+  box-shadow: 0px 0px 30px rgb(0, 255, 255);
   padding: 10px;
-  border: 5px solid red;
-  border-radius: 10px;
 }
 
 .youtube:visited {
-  color: red;
-  opacity: 10;
-  display: inline;
-  background: black;
+  background-color: rgba(0, 255, 255, 0.2);
+  border: 2px solid rgb(0, 255, 255);
+  color: white;
+  border-radius: 5px;
+  box-shadow: 0px 0px 30px rgb(0, 255, 255);
   padding: 10px;
-  border: 5px solid red;
-  border-radius: 10px;
 }
 
 .Youtube-1 {
-  display: inline;
+  background-color: rgba(0, 255, 255, 0.2);
+  border: 2px solid rgb(0, 255, 255);
   color: white;
-  font-size: 15px;
-  background: black;
+  border-radius: 5px;
+  box-shadow: 0px 0px 30px rgb(0, 255, 255);
   padding: 10px;
-  border: 5px solid red;
-  border-radius: 10px;
-  color: red;
 }
 
 .instagram:link {
-  color: rgb(243, 33, 103);
-  opacity: 10;
-  display: inline;
-  background: white;
+  background-color: rgba(0, 255, 255, 0.2);
+  border: 2px solid rgb(0, 255, 255);
+  color: white;
+  border-radius: 5px;
+  box-shadow: 0px 0px 30px rgb(0, 255, 255);
   padding: 10px;
-  border: 5px solid black;
-  border-radius: 10px;
 }
 
 .instagram:visited {
-  color: rgb(243, 33, 103);
-  opacity: 10;
-  display: inline;
-  background: white;
+  background-color: rgba(0, 255, 255, 0.2);
+  border: 2px solid rgb(0, 255, 255);
+  color: white;
+  border-radius: 5px;
+  box-shadow: 0px 0px 30px rgb(0, 255, 255);
   padding: 10px;
-  border: 5px solid black;
-  border-radius: 10px;
 }
 
 .Instagram-1 {
-  display: inline;
+  background-color: rgba(0, 255, 255, 0.2);
+  border: 2px solid rgb(0, 255, 255);
   color: white;
-  font-size: 15px;
-  background: white;
+  border-radius: 5px;
+  box-shadow: 0px 0px 30px rgb(0, 255, 255);
   padding: 10px;
-  border: 5px solid black;
-  border-radius: 10px;
-  color: darkviolet;
 }
 
 .discord:link {
-  color: darkviolet;
-  opacity: 10;
-  display: inline;
-  background: black;
+  background-color: rgba(0, 255, 255, 0.2);
+  border: 2px solid rgb(0, 255, 255);
+  color: white;
+  border-radius: 5px;
+  box-shadow: 0px 0px 30px rgb(0, 255, 255);
   padding: 10px;
-  border: 5px solid white;
-  border-radius: 10px;
 }
 
 .discord:visited {
-  color: darkviolet;
-  opacity: 10;
-  display: inline;
-  background: black;
+  background-color: rgba(0, 255, 255, 0.2);
+  border: 2px solid rgb(0, 255, 255);
+  color: white;
+  border-radius: 5px;
+  box-shadow: 0px 0px 30px rgb(0, 255, 255);
   padding: 10px;
-  border: 5px solid white;
-  border-radius: 10px;
 }
 
 .Discord-1 {
-  display: inline;
+  background-color: rgba(0, 255, 255, 0.2);
+  border: 2px solid rgb(0, 255, 255);
   color: white;
-  font-size: 15px;
-  background: black;
+  border-radius: 5px;
+  box-shadow: 0px 0px 30px rgb(0, 255, 255);
   padding: 10px;
-  border: 5px solid white;
-  border-radius: 10px;
 }
 
 body {
