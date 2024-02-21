@@ -13,12 +13,13 @@
   resize: both;
   overflow: hidden;
   background-color: rgba(0, 255, 255, 0.2);
-  border: 2px solid rgb(0, 255, 255);
+  border: 1px solid rgb(0, 255, 255);
   color: white;
   border-radius: 5px;
-  box-shadow: 0px 0px 30px rgb(0, 255, 255);
+  box-shadow: 0px 0px 60px rgb(0, 255, 255);
   transition: all 1s;
   opacity: 10;
+
 
   display: table;
   flex-wrap: wrap;
@@ -28,20 +29,20 @@
 
 .Godzilla:hover {
   background-color: rgba(3, 102, 102, 0.2);
-  border: 2px solid rgb(1, 99, 99);
+  border: 5px solid rgb(1, 99, 99);
   color: white;
   border-radius: 5px;
-  box-shadow: 0px 0px 30px rgb(1, 116, 91);
+  box-shadow: 0px 0px 100px rgb(1, 116, 91);
   width: 22%;
   height: 32%;
   transition: all 1s;
 }
 
 .Godzilla img {
-  border: 5px solid rgb(3, 86, 97);
+  border: 2px solid rgb(3, 86, 97);
   width: 250px;
   height: 150px;
-  border-radius: 3px;
+  border-radius: 10px;
 }
 
 @keyframes glowing {
@@ -83,7 +84,7 @@
   border: 2px solid rgb(0, 255, 255);
   color: white;
   border-radius: 5px;
-  box-shadow: 0px 0px 30px rgb(0, 255, 255);
+  box-shadow: 0px 0px 10px rgb(0, 255, 255);
   padding: 10px;
 }
 
@@ -92,7 +93,7 @@
   border: 2px solid rgb(0, 255, 255);
   color: white;
   border-radius: 5px;
-  box-shadow: 0px 0px 30px rgb(0, 255, 255);
+  box-shadow: 0px 0px 10px rgb(0, 255, 255);
   padding: 10px;
 }
 
@@ -101,7 +102,7 @@
   border: 2px solid rgb(0, 255, 255);
   color: white;
   border-radius: 5px;
-  box-shadow: 0px 0px 30px rgb(0, 255, 255);
+  box-shadow: 0px 0px 10px rgb(0, 255, 255);
   padding: 10px;
 }
 
@@ -110,7 +111,7 @@
   border: 2px solid rgb(0, 255, 255);
   color: white;
   border-radius: 5px;
-  box-shadow: 0px 0px 30px rgb(0, 255, 255);
+  box-shadow: 0px 0px 10px rgb(0, 255, 255);
   padding: 10px;
 }
 
@@ -119,7 +120,7 @@
   border: 2px solid rgb(0, 255, 255);
   color: white;
   border-radius: 5px;
-  box-shadow: 0px 0px 30px rgb(0, 255, 255);
+  box-shadow: 0px 0px 10px rgb(0, 255, 255);
   padding: 10px;
 }
 
@@ -128,7 +129,7 @@
   border: 2px solid rgb(0, 255, 255);
   color: white;
   border-radius: 5px;
-  box-shadow: 0px 0px 30px rgb(0, 255, 255);
+  box-shadow: 0px 0px 10px rgb(0, 255, 255);
   padding: 10px;
 }
 
@@ -146,7 +147,7 @@
   border: 2px solid rgb(0, 255, 255);
   color: white;
   border-radius: 5px;
-  box-shadow: 0px 0px 30px rgb(0, 255, 255);
+  box-shadow: 0px 0px 10px rgb(0, 255, 255);
   padding: 10px;
 }
 
@@ -155,7 +156,7 @@
   border: 2px solid rgb(0, 255, 255);
   color: white;
   border-radius: 5px;
-  box-shadow: 0px 0px 30px rgb(0, 255, 255);
+  box-shadow: 0px 0px 10px rgb(0, 255, 255);
   padding: 10px;
 }
 
@@ -164,7 +165,7 @@
   border: 2px solid rgb(0, 255, 255);
   color: white;
   border-radius: 5px;
-  box-shadow: 0px 0px 30px rgb(0, 255, 255);
+  box-shadow: 0px 0px 10px rgb(0, 255, 255);
   padding: 10px;
 }
 
@@ -173,7 +174,7 @@
   border: 2px solid rgb(0, 255, 255);
   color: white;
   border-radius: 5px;
-  box-shadow: 0px 0px 30px rgb(0, 255, 255);
+  box-shadow: 0px 0px 10px rgb(0, 255, 255);
   padding: 10px;
 }
 
@@ -182,7 +183,7 @@
   border: 2px solid rgb(0, 255, 255);
   color: white;
   border-radius: 5px;
-  box-shadow: 0px 0px 30px rgb(0, 255, 255);
+  box-shadow: 0px 0px 10px rgb(0, 255, 255);
   padding: 10px;
 }
 
@@ -191,7 +192,7 @@
   border: 2px solid rgb(0, 255, 255);
   color: white;
   border-radius: 5px;
-  box-shadow: 0px 0px 30px rgb(0, 255, 255);
+  box-shadow: 0px 0px 10px rgb(0, 255, 255);
   padding: 10px;
 }
 
@@ -200,7 +201,7 @@
   border: 2px solid rgb(0, 255, 255);
   color: white;
   border-radius: 5px;
-  box-shadow: 0px 0px 30px rgb(0, 255, 255);
+  box-shadow: 0px 0px 10px rgb(0, 255, 255);
   padding: 10px;
 }
 
@@ -209,8 +210,44 @@
   border: 2px solid rgb(0, 255, 255);
   color: white;
   border-radius: 5px;
-  box-shadow: 0px 0px 30px rgb(0, 255, 255);
+  box-shadow: 0px 0px 10px rgb(0, 255, 255);
   padding: 10px;
+}
+
+.page-item-0 {
+  background-color: rgba(0, 255, 255, 0.2);
+  border: 2px solid rgb(0, 255, 255);
+  color: white;
+  border-radius: 5px;
+  box-shadow: 0px 0px 10px rgb(0, 255, 255);
+  padding: 10px;
+  display: inline;
+  position: relative;
+  top: -12px;
+}
+
+.page-item-1 {
+  background-color: rgba(0, 255, 255, 0.2);
+  border: 2px solid rgb(0, 255, 255);
+  color: white;
+  border-radius: 5px;
+  box-shadow: 0px 0px 10px rgb(0, 255, 255);
+  padding: 10px;  
+  display: inline;
+  position: relative;
+  top: -12px;
+}
+
+.page-item-2 {
+  background-color: rgba(0, 255, 255, 0.2);
+  border: 2px solid rgb(0, 255, 255);
+  color: white;
+  border-radius: 5px;
+  box-shadow: 0px 0px 10px rgb(0, 255, 255);
+  padding: 10px; 
+  display: inline;
+  position: relative;
+  top: -12px;
 }
 
 body {
